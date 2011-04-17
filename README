@@ -1,0 +1,24 @@
+2D Physics Collision Simulation
+
+This is a simple little polygon collision simulation. It lets you
+create shapes and watch them collide. The shapes can be thrown, and
+gravity can also be configured. A detailed user guide can be found on
+the project's web site at
+http://inst.eecs.berkeley.edu/~tikhon/simulation.
+
+This was the final project for A.S. Physics at Menlo Atherton High
+School during the spring semester of 2009. It was primarily written by
+Jacob Taylor (mostly the classes in the engine package) and Tikhon
+Jelvis (mostly the classes in the gui package). Ken Dopp and Gregory
+Nisbet also helped on the project, but did no actual programming (they
+worked on things like the physical experiment, powerpoint and
+write-up).
+
+Usage:
+
+Everything can be run from simulation.gui.Main. This class runs the
+full interface. The simulation can also be used with a different
+interface; the simulation.pong package is a simple example of
+this. This package is a game of pong using the physics engine; it was
+written very quickly as a proof-of-concept and was not tested
+thoroughly. 
